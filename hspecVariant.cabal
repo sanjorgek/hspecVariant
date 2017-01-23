@@ -2,7 +2,7 @@ name:                hspecVariant
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Spec for testing properties for variant types
 description:         Spec for testing properties for variant types
 homepage:            https://github.com/sanjorgek/hspecVariant
@@ -26,7 +26,7 @@ library
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.6 && <5
-                       , QuickCheckVariant ==0.1.1.0
+                       , QuickCheckVariant ==0.2.0.0
                        , hspec >=2.2 && <3
   hs-source-dirs:      src
   default-language:    Haskell98
