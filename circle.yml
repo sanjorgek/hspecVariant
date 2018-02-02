@@ -6,6 +6,5 @@ dependencies:
   override:
     - cabal update
     - cabal sandbox init
-    - cabal install QuickCheck
-    - cabal install hspec
-    - cabal configure --enable-tests
+    - cabal install
+    - cabal configure
