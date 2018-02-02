@@ -16,10 +16,10 @@ import Test.QuickCheck.Variant
 
 -- |Is a shorcut for
 -- > it ".." $ propertyValid $ ..
-propValid :: (VarTesteable prop) => String -> prop -> Spec
+propValid :: (VarTestable prop) => String -> prop -> Spec
 propValid s = it s . propertyValid
 
 -- |Is a shorcut for
 -- > it ".." $ propertyInvalid $ ..
-propInvalid :: (VarTesteable prop) => String -> prop -> Spec
+propInvalid :: (VarTestable prop) => String -> prop -> Spec
 propInvalid s = it s . propertyInvalid

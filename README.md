@@ -2,10 +2,11 @@
 
 Spec for testing properties for variant types
 
-[![hspecVariant](https://img.shields.io/badge/hspecVariant-v0.1.0.1-blue.svg?style=plastic)](https://hackage.haskell.org/package/hspecVariant)
+[![hspecVariant](https://img.shields.io/badge/hspecVariant-v1.0.0.0-blue.svg?style=plastic)](https://hackage.haskell.org/package/hspecVariant)
 
 ```haskell
 {-# LANGUAGE TypeSynonymInstances #-}
+import Test.QuickCheck.Variant
 
 type Natural = Integer
 
@@ -21,6 +22,9 @@ instance Variant Natural where
 Test
 
 ```haskell
+import Test.Hspec
+import Test.Hspec.Variant
+
 main::IO ()
 main = hspec $
   describe "Naturals" $
