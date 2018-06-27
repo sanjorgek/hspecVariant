@@ -3,7 +3,7 @@ name:                hspecVariant
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
 version:             1.0.0.0
-synopsis:            Spec for testing properties for variant types
+synopsis:            Spec for testing properties
 description:         Spec for testing properties for variant types. Uses QuickCheckVariant
                      package.
 homepage:            https://github.com/sanjorgek/hspecVariant

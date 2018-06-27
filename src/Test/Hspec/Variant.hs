@@ -1,7 +1,7 @@
 {-# OPTIONS_GHC -fno-warn-tabs #-}
 {-|
 Module      : Test.Hspec.Variant
-Description : Varaint property spec
+Description : Variant property spec
 Copyright   : (c) Jorge Santiago Alvarez Cuadros, 2015
 License     : GPL-3
 Maintainer  : sanjorgek@ciencias.unam.mx
