@@ -2,10 +2,8 @@
 
 Spec for testing properties for variant types
 
-[![hspecVariant](https://img.shields.io/badge/hspecVariant-v1.0.0.0-blue.svg?style=plastic)](https://hackage.haskell.org/package/hspecVariant)
+[![hspecVariant](https://img.shields.io/badge/hspecVariant-v1.0.1.0-blue.svg?style=plastic)](https://hackage.haskell.org/package/hspecVariant)
 [![pipeline status](https://gitlab.com/sanjorgek/hspecVariant/badges/master/pipeline.svg)](https://gitlab.com/sanjorgek/hspecVariant/commits/master)
-[![Build Status](https://travis-ci.org/sanjorgek/hspecVariant.svg?branch=master)](https://travis-ci.org/sanjorgek/hspecVariant)
-[![CircleCI](https://circleci.com/gh/sanjorgek/hspecVariant.svg?style=svg)](https://circleci.com/gh/sanjorgek/hspecVariant)
 
 ```haskell
 {-# LANGUAGE TypeSynonymInstances #-}
@@ -25,6 +23,7 @@ instance Variant Natural where
 Test
 
 ```haskell
+import Test.QuickCheck
 import Test.Hspec
 import Test.Hspec.Variant
 
